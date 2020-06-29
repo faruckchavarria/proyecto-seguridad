@@ -1,0 +1,10 @@
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.csprojAssemblyReference.cache
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.Form1.resources
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.Properties.Resources.resources
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.csproj.GenerateResource.cache
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.csproj.CoreCompileInputs.cache
+C:\Users\Faruck\Documents\loquera\yas\yas\bin\Debug\yas.exe.config
+C:\Users\Faruck\Documents\loquera\yas\yas\bin\Debug\yas.exe
+C:\Users\Faruck\Documents\loquera\yas\yas\bin\Debug\yas.pdb
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.exe
+C:\Users\Faruck\Documents\loquera\yas\yas\obj\Debug\yas.pdb
