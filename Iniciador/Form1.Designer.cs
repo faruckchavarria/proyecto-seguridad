@@ -53,6 +53,7 @@
             this.label4.Size = new System.Drawing.Size(30, 13);
             this.label4.TabIndex = 19;
             this.label4.Text = "Logs";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dgvvista
             // 
@@ -61,6 +62,7 @@
             this.dgvvista.Name = "dgvvista";
             this.dgvvista.Size = new System.Drawing.Size(317, 150);
             this.dgvvista.TabIndex = 18;
+            this.dgvvista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvvista_CellContentClick);
             // 
             // label3
             // 
@@ -70,6 +72,7 @@
             this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 17;
             this.label3.Text = "Logs";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // rtblogs
             // 
@@ -78,6 +81,7 @@
             this.rtblogs.Size = new System.Drawing.Size(317, 140);
             this.rtblogs.TabIndex = 16;
             this.rtblogs.Text = "";
+            this.rtblogs.TextChanged += new System.EventHandler(this.rtblogs_TextChanged);
             // 
             // button1
             // 
@@ -97,6 +101,7 @@
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 14;
             this.label2.Text = "puerto";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -106,6 +111,7 @@
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "nombre";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tb_puerto
             // 
@@ -113,6 +119,7 @@
             this.tb_puerto.Name = "tb_puerto";
             this.tb_puerto.Size = new System.Drawing.Size(100, 20);
             this.tb_puerto.TabIndex = 12;
+            this.tb_puerto.TextChanged += new System.EventHandler(this.tb_puerto_TextChanged);
             // 
             // textBox1
             // 
@@ -120,6 +127,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 11;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // KDC
             // 
@@ -129,6 +137,7 @@
             this.KDC.Size = new System.Drawing.Size(29, 13);
             this.KDC.TabIndex = 10;
             this.KDC.Text = "KDC";
+            this.KDC.Click += new System.EventHandler(this.KDC_Click);
             // 
             // label5
             // 
@@ -138,6 +147,7 @@
             this.label5.Size = new System.Drawing.Size(42, 13);
             this.label5.TabIndex = 23;
             this.label5.Text = "numero";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -147,6 +157,7 @@
             this.label6.Size = new System.Drawing.Size(41, 13);
             this.label6.TabIndex = 22;
             this.label6.Text = "destino";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtnumero
             // 
@@ -154,6 +165,7 @@
             this.txtnumero.Name = "txtnumero";
             this.txtnumero.Size = new System.Drawing.Size(100, 20);
             this.txtnumero.TabIndex = 21;
+            this.txtnumero.TextChanged += new System.EventHandler(this.txtnumero_TextChanged);
             // 
             // txtdestino
             // 
@@ -161,6 +173,7 @@
             this.txtdestino.Name = "txtdestino";
             this.txtdestino.Size = new System.Drawing.Size(100, 20);
             this.txtdestino.TabIndex = 20;
+            this.txtdestino.TextChanged += new System.EventHandler(this.txtdestino_TextChanged);
             // 
             // Form1
             // 

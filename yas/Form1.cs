@@ -41,11 +41,17 @@ namespace yas
             rtblogs.Text = "iniciando";
             while (true)
             {
+               // Byte[] mensaje = new byte[20];
+             //000   String obtenido = "";
+
                 rtblogs.AppendText("\n esperando cliente");
                 TcpClient cliente = await server.AcceptTcpClientAsync();
                 rtblogs.AppendText("\nconectando");
-                cliente.Close();
+               
 
+                NetworkStream stream = cliente.GetStream();
+
+                cliente.Close();
             }
 
         }
